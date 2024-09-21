@@ -1,0 +1,27 @@
+div {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.fixed-width {
+    background-color: rgb(8, 123, 217);
+    width: 300px;
+}
+
+.percentage-width {
+    background-color: rgb(7, 251, 129);
+    width: 50%;
+}
+
+.viewport-width {
+    background-color: rgb(255, 0, 221);
+    width: 50vw;
+}
+
+.min-max-width {
+    background-color: rgb(60, 255, 0);
+    min-width: 100px;
+    max-width: 300px;
+
+}

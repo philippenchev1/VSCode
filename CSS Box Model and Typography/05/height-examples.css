@@ -1,0 +1,27 @@
+div {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.fixed-height {
+    background-color: rgb(8, 123, 217);
+    height: 200px;
+}
+
+.percentage-height {
+    background-color: rgb(7, 251, 129);
+    height: 50%;
+}
+
+.viewport-height {
+    background-color: rgb(255, 0, 221);
+    height: 50vh;
+}
+
+.min-max-height {
+    background-color: rgb(60, 255, 0);
+    min-height: 100px;
+    max-height: 300px;
+
+}

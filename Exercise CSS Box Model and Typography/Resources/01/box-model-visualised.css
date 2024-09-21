@@ -1,0 +1,50 @@
+.container {
+    width: 50vw;
+    margin: 50px auto; 
+}
+
+.container div {
+    border: 1px dashed #666;
+    margin: 10px 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+.container div::before {
+    padding-left: 10px;
+    font-size: 12px;
+    display: block;
+}
+
+.container .margin {
+    background-color:#ff966f;
+}
+
+.container .margin::before {
+    content: "margin";
+}
+
+.container .border {
+    background-color: #ffe8c6;
+}
+
+.container .border::before {
+    content: "border";
+}
+
+.container .padding {
+    background: #85eb85;
+}
+
+.container .padding::before {
+    content: "padding";
+}
+
+.container .content {
+    background-color: #a3d2e2;
+    text-align: center;
+    
+}
+
+.content p {
+    text-align: center;
+}

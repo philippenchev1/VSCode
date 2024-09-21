@@ -1,0 +1,30 @@
+div {
+    padding: 10px;
+    margin: 20px;
+    max-width: 370px;
+}
+.solid-border {
+    background-color: aqua;
+    border: solid 4px black;
+}
+
+.dashed-border {
+    background-color: chartreuse;
+    border: dashed 2px #333;
+}
+
+.dotted-border {
+    background-color: crimson;
+    border: dotted 2px #666;
+}
+
+.mixed-border {
+    background-color: deeppink;
+    border-top: dashed 3px #333;
+    border-bottom: 3px dashed #333;
+    border-left: 4px solid #000;
+    border-right: 4px solid #000;
+}
+
+
+

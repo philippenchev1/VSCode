@@ -1,0 +1,25 @@
+section {
+    background-color: rgb(126, 255, 6);
+
+}
+
+
+div {
+    border: 1px solid black;
+}
+
+.uniform-margin {
+    margin: 20px;
+    background-color: green;
+}
+
+.non-uniform-margin {
+    margin: 10px 30px 20px 40px;
+    background-color: red;
+    
+}
+
+.negative-margin {
+    background-color: blue;
+    margin: -20;
+}
