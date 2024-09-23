@@ -1,0 +1,18 @@
+body {
+    border: 2px solid rgb(1, 81, 1);
+    margin: 0px;
+    padding: 20px 0;
+}
+.main-container {
+    width: 70vw;
+    margin: auto;
+    border: 2px solid blue;
+    
+
+}
+
+.container-elements div {
+    border: 2px solid rgb(0, 0, 0);
+    margin: 20px;
+    text-align: center;
+}
