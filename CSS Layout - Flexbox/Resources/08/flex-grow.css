@@ -1,0 +1,37 @@
+.flex-container {
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+}
+
+
+.flex-item {
+    background-color: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.grow {
+    flex-grow: 0;
+}
+
+.grow-1 .flex-item {
+    flex-grow: 1;
+}
+
+.grow-2nd-child .flex-item:nth-child(2) {
+    flex-grow: 1;
+}
+
+.grow-proportionally .flex-item:nth-child(1) {
+    flex-grow: 1;
+}
+
+.grow-proportionally .flex-item:nth-child(2) {
+    flex-grow: 2;
+}
+
+.grow-proportionally .flex-item:nth-child(3) {
+    flex-grow: 3;
+}
