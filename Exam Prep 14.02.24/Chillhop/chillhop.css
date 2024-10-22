@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #1881B6;
+    border-radius: 10px;
+    padding: 30px;
+    width: 800px;
+    border: 4px solid black;
+}
+
+.text-content {
+    color: white;
+    flex: 1;
+    padding-right: 20px;
+}
+
+.text-content h3 {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+.text-content h1 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.text-content p {
+    color: black;
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-indent: 36px; 
+    line-height: 1.8;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.buttons a {
+    border: 2px solid black;
+    padding: 7px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn-contact {
+    background-color: #C34270;
+    color: rgb(255, 255, 255);
+}
+
+.btn-learn {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+}
+
+.image-content img {
+    width: 290px;
+    height: auto;
+    border-radius: 5px;
+}

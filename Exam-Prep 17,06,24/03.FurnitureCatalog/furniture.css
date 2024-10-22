@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.6;
+    background-image: url(images/background.jpg);
+    background-size: 1920px auto;
+    background-position: center -15em;
+    background-repeat: no-repeat;
+}
+
+header {
+
+    color: black;
+    padding: 20px;
+    
+   
+}
+.container {
+   
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img {
+    height: 55px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.promo {
+    
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.promo h1 {
+    font-size: 36px;
+}
+
+.promo p {
+    font-size: 18px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.promo .more-info {
+    margin-top: 40px;
+    padding: 5px 10px;
+    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    
+
+}
+
+.catalog, .catalog-images{
+    background-color: #60ACC1;
+    padding: 50px;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.about-us {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.catalog h2, .catalog-images h2, .about-us h2 {
+    font-size: 28px;
+   
+}
+
+.project-description {
+    display: flex;
+    justify-content: space-around;
+}
+.project {
+    display: flex;
+}
+
+.project-box {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.project-box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f1f1f1;
+}
+
+.info-box {
+    text-align: center;
+    width: 30%;
+}
+
+.info-box img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.catalog-images .image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.catalog-images .image-gallery img {
+    width: 400px;
+    height: 250px;
+}
+
+.about-us p {
+
+    margin: 0 auto;
+}
+
+.last-paragraph {
+    margin-top: 30px;
+    padding: 0 20%;
+    margin-bottom: 30px;
+    
+}
+
+.last-paragraph p {
+    justify-content: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
